@@ -1,0 +1,7 @@
+{
+  "name": "Eventopia",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
