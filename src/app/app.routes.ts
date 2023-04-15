@@ -16,5 +16,13 @@ export const routes: Routes = [
   {
     path: 'event',
     loadComponent: () => import('./pages/event/event.page').then( m => m.EventPage)
+  },
+  {
+    path: 'friends',
+    loadComponent: () => import('./pages/friends/friends.page').then( m => m.FriendsPage)
+  },
+  {
+    path: 'tab4',
+    loadComponent: () => import('./tab4/tab4.page').then( m => m.Tab4Page)
   }
 ];
