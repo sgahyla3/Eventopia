@@ -1,0 +1,36 @@
+ion-content{
+ *   
+    ion-content {
+    --background: var(--ion-color-primary);
+    }   
+    
+    .main-header {
+        height: 25vh;
+        width: 120%;
+        background: linear-gradient(90deg, var(--ion-color-tertiary) 0%, var(--ion-color-primary)100%);
+        box-shadow: 0 1px 10px var(--ion-color-light);
+        border-radius: 0 0 50% 50%;
+        margin-left: -4.5vh;
+        overflow: hidden;
+        div{
+            transform: translateY(2vh);
+            .circular-image {
+                
+                border-radius: 50%;
+                width: 20vh;
+                height: 20vh;
+                background: var(--ion-color-white);
+                border-radius: 50% 50% 50% 50%;
+                box-shadow: 0 5px 20px var(--ion-color-light);
+                overflow: hidden;
+                
+              }
+            
+        }
+    }
+    .ion-button {
+        margin-right: 10vh;
+    }
+    
+    
+}

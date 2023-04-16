@@ -1,13 +1,52 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>Profile</ion-title>
+  <ion-toolbar color="primary">
+    <ion-title>Profile Page</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Profile</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content>
+
+  <ion-list class="main-header">
+  <div align="center">
+  <ion-img class="circular-image" src="/assets/carti.png"></ion-img>
+  </div>
+  </ion-list>
+  
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Name</ion-card-title>
+    
+    </ion-card-header>
+  
+    <ion-card-content>
+      JOHN DOE
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>User info</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      	<h2> Age: 19</h2>
+      	<h2> Gender: Male</h2>
+      	<h2> Pronouns: he/him </h2>
+  	</ion-card-content>
+
+  
+    
+  </ion-card>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>University</ion-card-title>
+  	</ion-card-header>
+    <ion-card-content>
+    	<h2>University of Liverpool</h2>
+    </ion-card-content>
+
+    
+  </ion-card>
+
+  <ion-button size="full" color="primary">Friends</ion-button>
 </ion-content>
