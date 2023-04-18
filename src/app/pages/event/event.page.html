@@ -1,7 +1,7 @@
 <ion-header>
   <ion-toolbar color="primary">
   	<ion-buttons slot="start">
-  		<ion-back-button text=""></ion-back-button>
+  		<ion-back-button text="Back"></ion-back-button>
   	</ion-buttons>
     <ion-title>Football Match</ion-title>
   </ion-toolbar>
@@ -24,6 +24,8 @@
         <h2 class="description">We're playing a football match on pitch 5 tonight at 7pm, come join us!</h2>
   	</ion-card-content>
   </ion-card>
-  <ion-button color="light"  expand="full">Like</ion-button>
+  <ion-button class="btn-1" expand="block" (click)="isLikeClicked=true" 
+    [color]="isLikeClicked? 'danger': 'light'">Like</ion-button>
 
 </ion-content>
+
