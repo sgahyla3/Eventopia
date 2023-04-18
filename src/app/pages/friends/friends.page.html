@@ -1,9 +1,13 @@
-<ion-content [fullscreen]="true">
-  <ion-header>
-    <ion-toolbar color="primary">
-      <ion-title size="large">Your friends</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-header>
+  <ion-toolbar color="primary">
+  	<ion-buttons slot="start">
+  		<ion-back-button text="Back"></ion-back-button>
+  	</ion-buttons>
+    <ion-title>Your Friends</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
   <ion-card>
     <ion-card-header>
       <ion-card-title>Friend requests</ion-card-title>
@@ -101,3 +105,4 @@
   </ion-card>
 
 </ion-content>
+
