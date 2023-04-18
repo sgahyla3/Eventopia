@@ -17,4 +17,6 @@ export class EventPage implements OnInit {
   ngOnInit() {
   }
 
+  isLikeClicked: boolean = false
+  
 }
