@@ -1,4 +1,4 @@
-import { Routes } from '@angular/router';
+/* import { Routes, RouterModule } from '@angular/router';
 import { TabsPage } from './tabs.page';
 
 export const routes: Routes = [
@@ -38,4 +38,5 @@ export const routes: Routes = [
     redirectTo: '/tabs/tab1',
     pathMatch: 'full',
   },
-];
+]; 
+*/
