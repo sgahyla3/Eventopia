@@ -28,10 +28,10 @@
       <ion-card-title>User info</ion-card-title>
     </ion-card-header>
     <ion-card-content>
-      	<h2> Age: 19</h2>
-      	<h2> Gender: Male</h2>
-      	<h2> Pronouns: he/him </h2>
-  	</ion-card-content>
+        <h2> Age: 19</h2>
+        <h2> Gender: Male</h2>
+        <h2> Pronouns: he/him </h2>
+    </ion-card-content>
 
   
     
@@ -40,13 +40,16 @@
   <ion-card>
     <ion-card-header>
       <ion-card-title>University</ion-card-title>
-  	</ion-card-header>
+    </ion-card-header>
     <ion-card-content>
-    	<h2>University of Liverpool</h2>
+      <h2>University of Liverpool</h2>
     </ion-card-content>
 
     
   </ion-card>
 
-  <ion-button size="full" color="primary">Friends</ion-button>
+  <ion-button size="block" color="primary" [routerLink]="['/friends']">Friends</ion-button>
+
+  <ion-button size="block" color="primary" [routerLink]="['/']">Sign Out</ion-button>
+
 </ion-content>
